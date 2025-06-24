@@ -26,7 +26,7 @@ set_background("Anomaly-Detection.jpg")
 
 
 # Load model
-model = joblib.load("D:\\SI Rourkela\\Jup\\xgboost_binary_model.pkl")
+model = joblib.load("xgboost_binary_model.pkl")
 
 st.markdown("""
 <h1 style='color: #00FFFF;'>🚀 Welcome to the Real-Time IoMT Anomaly Detection Dashboard</h1>
